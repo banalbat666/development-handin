@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-stencil/static/css/main.073c9b0a.css",
-    "main.js": "/react-stencil/static/js/main.930fb913.js",
-    "static/media/logo.svg": "/react-stencil/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/react-stencil/index.html",
-    "main.073c9b0a.css.map": "/react-stencil/static/css/main.073c9b0a.css.map",
-    "main.930fb913.js.map": "/react-stencil/static/js/main.930fb913.js.map"
+    "main.css": "/development-handin/static/css/main.073c9b0a.css",
+    "main.js": "/development-handin/static/js/main.d297f43b.js",
+    "static/media/logo.svg": "/development-handin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/development-handin/index.html",
+    "main.073c9b0a.css.map": "/development-handin/static/css/main.073c9b0a.css.map",
+    "main.d297f43b.js.map": "/development-handin/static/js/main.d297f43b.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.930fb913.js"
+    "static/js/main.d297f43b.js"
   ]
 }
