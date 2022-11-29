@@ -1,38 +1,70 @@
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 80%;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Records {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15%;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #292929;
 }
 
-.App-link {
-  color: #61dafb;
+.Side-Subsect {
+    text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.VinylItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20em;
+    max-height: auto;
+    border: solid #292929;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+#img {
+    width: 20em;
+    height: 20em;
+    border-radius: 5px 5px 0 0;
+}
+
+#header-text {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#body-text {
+    line-height: 0.5em;
+}
+
+#light-text {
+    color: white;
 }
