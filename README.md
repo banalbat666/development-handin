@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>`
+If you used the stencil code, this is `https://banalbat666.github.io/development-handin`
 
 ### Goal and Value of the Application
 The goal of this application is to provide a web interface for a record store: Empire Records. With this site, users can shop for available records at Empire and filter/sort them by various categories for a more advanced search process.
